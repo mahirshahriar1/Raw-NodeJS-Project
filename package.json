@@ -1,0 +1,10 @@
+{
+  "scripts" : {
+    "start": "set NODE_ENV=staging & nodemon index.js",
+    "production": "set NODE_ENV=production & nodemon index.js"
+  },
+  "dependencies": {
+    "loadash": "^1.0.0",
+    "react": "^18.2.0"
+  }
+}
